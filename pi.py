@@ -4,10 +4,4 @@ text = """
 """
 
 # TODO
-text = text.replace(".", "").replace(",", "")
-list_text=text.split()
-print(text)
-L_int = list(map(len,list_text))
-L = [str(n) for n in L_int]
-L = "".join(L)
-print(L)
+
