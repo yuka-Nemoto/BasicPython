@@ -4,10 +4,9 @@ text = """
 """
 
 # TODO
-text = text.replace(".", "").replace(",", "")
-list_text=text.split()
-print(text)
+text = text.replace(",", "").replace(".", "")
+list_text = text.split()
 L_int = list(map(len,list_text))
-L = [str(n) for n in L_int]
+L = [str(A) for A in L_int]
 L = "".join(L)
 print(L)
