@@ -21,5 +21,5 @@ trial_division(n)
 
 
 #(2)
-n = 1
+n = 10
 trial_division(n)
