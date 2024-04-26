@@ -13,10 +13,9 @@ def trial_division(n):
       else:
          for i in range(2,dest):
             if n%i == 0:
-               print(str(n) + 'は素数ではない')
-         return
-print(str(n)+'は素数')
-    
+                print(str(n) + 'は素数ではない')
+            return
+print(str(n) + 'は素数')
 trial_division(n)
 
 
