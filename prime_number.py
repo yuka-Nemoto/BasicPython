@@ -7,12 +7,16 @@ import math
 n = 61
 def trial_division(n):
    dest = int(math.sqrt(n)) + 1
-   for i in range(2,dest):
-     if n%i == 0:
-        return False
-     else:
-        return True
-    
+
+   if n<=1:
+      return False
+   else:
+      for i in range(2,dest):
+         if n%i == 0:
+            return False
+      else:
+         return True
+   
 print(trial_division(n))
 
 #(2)
