@@ -41,3 +41,17 @@ print(judge(a,b))
 a = 91
 b = 14
 print(judge(a,b))
+=======
+#(1)
+def gcd(x,y):
+    if y == 0:
+        return x
+    else:
+        return gcd(y,x%y)
+print(gcd(10,20))
+
+#(2)
+print(gcd(14,91))
+
+#(3)
+print(gcd(91,14))
